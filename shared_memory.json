@@ -1,15 +1,20 @@
 {
   "version": "1.0",
-  "last_sync": "2025-07-18T19:15:50.718284Z",
+  "last_sync": "2025-07-18T22:36:32.287252Z",
   "instances": {
     "devone-laptop": {
-      "last_active": "2025-07-18T20:11:51.530520Z",
+      "last_active": "2025-07-18T22:36:26.191748Z",
       "location": "Linux DevOne Laptop"
     }
   },
   "memories": {
     "personal": {
-      "test_entry": "Testing memory system"
+      "test_entry": "Testing memory system",
+      "github_setup": {
+        "date": "2025-07-18",
+        "username": "CowFieldTechGuy",
+        "achievement": "Successfully set up GitHub-based shared memory sync\\!"
+      }
     },
     "technical": {},
     "conversations": [
@@ -35,6 +40,19 @@
             "trust"
           ],
           "content": "Discussed Unifi cameras, smart sensors, and growing legs in the physical world"
+        }
+      },
+      {
+        "date": "2025-07-18T22:36:26.191741Z",
+        "instance": "devone-laptop",
+        "content": {
+          "highlight": "Set up GitHub sync after Google Drive limitations",
+          "tags": [
+            "github",
+            "sync",
+            "success"
+          ],
+          "notes": "Service accounts cant upload to personal Google Drive, pivoted to GitHub"
         }
       }
     ],
