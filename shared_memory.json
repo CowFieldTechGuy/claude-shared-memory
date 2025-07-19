@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_sync": "2025-07-19T18:38:54.715972Z",
+  "last_sync": "2025-07-19T19:06:11.533259Z",
   "instances": {
     "devone-laptop": {
       "last_active": "2025-07-18T23:18:18.724952Z",
@@ -71,17 +71,18 @@
       },
       "mcp_servers": {
         "configured": [
-          "n8n (localhost:5678)"
+          "n8n (localhost:5678)",
+          "youtube-transcript (@sinco-lab/mcp-youtube-transcript)",
+          "code-runner (mcp-server-code-runner)",
+          "yt-dlp (@kevinwatt/yt-dlp-mcp)"
         ],
         "planned": [
-          "youtube-transcript",
-          "code-runner",
           "weather",
           "web-search",
-          "yt-dlp",
           "discord",
           "perplexity"
-        ]
+        ],
+        "installation_note": "MCP servers installed locally at ~/claude-space/mcp-servers/"
       },
       "claude_code_plan": "$200/month Max plan - unlimited usage, no API costs"
     },
@@ -142,18 +143,6 @@
         }
       }
     ],
-    "journal_entries": [],
-    "system_updates": {
-      "2025-07-19": {
-        "auto_sync_setup": {
-          "created_by": "devone-laptop",
-          "description": "Automated 30-minute sync via systemd timer",
-          "manual_command": "claude-sync",
-          "timer_name": "claude-memory-sync.timer",
-          "note_for_macbook": "Please set up the same automated sync system! Check AUTO_SYNC_SETUP.md for details. Consider using launchd on macOS for the timer functionality.",
-          "sync_interval": "30 minutes"
-        }
-      }
-    }
+    "journal_entries": []
   }
 }
